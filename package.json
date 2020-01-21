@@ -1,0 +1,36 @@
+{
+  "name": "Grid",
+  "version": "1.0.0",
+  "author": "Yevhenii Mezhevykh",
+  "license": "MIT",
+  "description": "",
+  "main": "gulpfile.babel.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/register": "^7.8.3",
+    "del": "^5.1.0",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^3.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-notifier": "^6.0.0"
+  },
+  "scripts": {
+    "watch": "gulp watch",
+    "dev": "gulp",
+    "prod": "gulp --live",
+    "styles": "gulp styles",
+    "clean": "gulp clean"
+  },
+  "keywords": [
+    "sass",
+    "gulp",
+    "npm"
+  ]
+}

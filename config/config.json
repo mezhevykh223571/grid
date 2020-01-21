@@ -1,0 +1,9 @@
+{
+  "targets": {
+    "project": {
+      "sourceDirectory": "./src",
+      "distDirectory": "./dist",
+      "cssFileName": "main.css"
+    }
+  }
+}
