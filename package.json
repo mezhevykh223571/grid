@@ -1,13 +1,13 @@
 {
-  "name": "Grid",
-  "version": "1.0.0",
+  "name": "@mezhevykh/grid",
+  "version": "0.0.1",
   "author": "Yevhenii Mezhevykh",
   "license": "MIT",
-  "description": "",
   "main": "gulpfile.babel.js",
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.8.3",
+    "@babel/helper-compilation-targets": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "@babel/register": "^7.8.3",
     "del": "^5.1.0",
@@ -32,5 +32,14 @@
     "sass",
     "gulp",
     "npm"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mezhevykh223571/grid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mezhevykh223571/grid/issues"
+  },
+  "homepage": "https://github.com/mezhevykh223571/grid#readme",
+  "description": ""
 }

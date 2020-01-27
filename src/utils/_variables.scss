@@ -1,6 +1,6 @@
-$columns: 12;
-$columns-prefix: col;
-$gutter: 30px;
+$columns: 12 !default;
+$columns-prefix: col !default;
+$gutter: 30px !default;
 
 // Styles for columns
 %global-columns-style {
@@ -18,7 +18,7 @@ $breakpoints: (
         md: 768px,
         lg: 992px,
         xl: 1200px
-);
+) !default;
 
 // Container widths
 $container-widths: (
@@ -27,6 +27,6 @@ $container-widths: (
         md: 720px,
         lg: 960px,
         xl: 1170px
-);
+) !default;
 
-$breakpoints-map: map_keys($breakpoints);
+$breakpoints-map: map_keys($breakpoints) !default;
